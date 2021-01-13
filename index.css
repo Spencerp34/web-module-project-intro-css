@@ -1,6 +1,132 @@
-*{ border: 1px solid black;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-img .firepit {
-    width: 200px;
-    height: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&display=swap');
+
+/*font-family: 'Roboto Mono', monospace;*/
+
+*{  border: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+
+body{
+    font-size:1.8rem;
+    color: black;
+    line-height: 1.5;
+}
+
+nav{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+nav a{
+    display: inline-block;
+    width: 10%;
+    border-radius: 15%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    max-height: 3%;
+    
+}
+
+.orange{
+    
+    background-color: #FF764E;
+    margin: 0 auto 0 10%
+    
+    
+}
+
+.blue{
+    background-color: #5ED3EB;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.yellow{
+    background-color: #FFCD69;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+}
+
+.sunrise img, .invitation{
+    position: relative;
+    display: inline-block;
+}
+.sunrise{
+    
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.sunrise img{
+    
+    width: 20%;
+    border-radius: 50%;
+
+}
+
+.invitation {
+    position: absolute;
+    width: 75%;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Chelsea Market', cursive;
+    width: 55%;
 }
