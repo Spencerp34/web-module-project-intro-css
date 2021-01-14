@@ -47,10 +47,7 @@ table {
 
 /*font-family: 'Roboto Mono', monospace;*/
 
-*{  border: 1px solid black;
-    font-family: 'Roboto Mono', monospace;
-    box-sizing: border-box;
-}
+
 
 html{
     font-size: 62.5%;
@@ -118,7 +115,7 @@ nav a{
     margin: 0 auto;
 }
 .sunrise img{
-    
+    margin: 0 5%;
     width: 20%;
     border-radius: 50%;
 
